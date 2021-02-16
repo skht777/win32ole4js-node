@@ -1,0 +1,39 @@
+{
+  "name": "win32ole4js",
+  "version": "0.0.1",
+  "description": "win32ole bindings work with node",
+  "keywords": [
+    "OLE",
+    "COM",
+    "ActiveX",
+    "ActiveXObject",
+    "CreateObject",
+    "WSH",
+    "WMI",
+    "Outlook",
+    "Access",
+    "Word",
+    "Excel",
+    "IE",
+    "InternetExplorer"
+  ],
+  "main": "lib/win32ole4js.js",
+  "scripts": {
+    "build": "node-gyp build",
+	"clean": "node-gyp-clean"
+  },
+  "author": {
+    "name": "skht777",
+    "url": "https;//github.com/skht777",
+    "email": "skht77@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skht777/win32ole4js-node"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.14.2",
+    "node-gyp": "^7.1.2"
+  }
+}
